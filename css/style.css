@@ -4,4 +4,127 @@
 body {
     font-family: 'Graphik LCG', sans-serif;
     font-size: 20px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+/*------------------------ header -----------------------------------*/
+.content-box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 1px solid #CCCCCC;
+}
+.header-flex {
+    display: flex;
+    max-height: 95px;
+    align-items: center;
+    padding: 25px 51px;
+}
+.header-logo {
+    width: 130px;
+    height: 28px;
+    margin-right: 51px;
+}
+.haeder-nav {
+    flex-grow: 1;   
+}
+.header-nav-list {
+    display: flex;
+}
+.header-nav-item {
+    margin-right: 51px; /*в макеті відступи між пунктами спику різні. Нехай будуть одинаковими*/
+}
+.header-nav-link {
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+}
+.header-nav-link:hover {
+    color:  #ff6336;
+}
+.header-authorization {
+    display: flex;
+}
+.header-link {
+    width: 120px;
+    height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-link:last-child {
+    margin-right: 0;
+}
+.login {
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.login:hover {
+    color: #ff6336;
+    border: 1px solid #ff6336;
+}
+.try_it {
+    background-color: #ff6336;
+    color: #fff;   
+}
+.try_it:hover {
+    color: #000000;
+    border: 1px solid #ff6336;
+    background-color: #fff;
+}
+/*-------------------- block 1 About ------------------------------*/
+.about {
+    display: flex;
+    align-items: center;
+    padding: 129px 67px 172px 75px;
+}
+.about-content-title {
+    margin-bottom: 51px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    max-width: 560px;
+}
+.about-content-text {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 480px;
+    margin-bottom: 50px;
+}
+.about-content-authorization {
+    display: flex;
+    margin-bottom: 25px;
+}
+.about-content-authorization-link {
+    width: 160px;
+    height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-content-authorization-link:last-child {
+    margin-right: 0;
+}
+.demo {
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.demo:hover {
+    color: #ff6336;
+    border: 1px solid #ff6336;
+}
+.about-content-caption {
+    font-size: 15px;
+    line-height: 25px;
+}
+.about-img {
+    max-width: 759px;
+    max-height: 529px;
 }
