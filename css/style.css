@@ -128,3 +128,26 @@ a {
     max-width: 759px;
     max-height: 529px;
 }
+.background-coral-style {
+    background-color: #FF9C7D;
+}
+.companies {
+    padding: 108px 75px 104px 75px;
+}
+.companies-title {
+    max-width: 720px;
+    margin: 0 auto 70px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.companies-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.company-icon {
+    max-width: 150px;
+    max-height: 150px;
+}
