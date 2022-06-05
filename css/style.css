@@ -301,7 +301,38 @@ a {
     text-decoration: underline;
     line-height: 30px;
 }
+/*---------------------------- block 6 chief ---------------------------------*/
+.background-aqua-style {
+    background-color: #C9E8F2;
+}
+.chief {
+    padding: 53px 75px 105px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.chief-content-text {
+    width: 920px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+.chief-content-title {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    background-image: url(../img/block6_Chief_Mobile_Officer/Partner_logo_of_Chief_Mobile_Officer.png);
+    background-position: 0 32px;
+    background-repeat: no-repeat;
+    height: 60px;
+    
+}
+.chief-img {
+    max-width: 310px;
+    max-height: 310px;
+    margin-left: 50px;
 
+}
 
 
 
