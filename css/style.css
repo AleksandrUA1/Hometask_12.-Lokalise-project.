@@ -325,15 +325,57 @@ a {
     background-position: 0 32px;
     background-repeat: no-repeat;
     height: 60px;
-    
 }
 .chief-img {
     max-width: 310px;
     max-height: 310px;
     margin-left: 50px;
-
+}
+/*--------------- block 7 translation ---------------------------------------*/
+.background-coffee-style {
+    background-color: #DABC98;
+}
+.translation {
+    display: flex;
+    align-items: flex-end;
+    padding: 70px 74px 84px 74px;
+}
+.translation-title {
+    width: 809px;
+    padding: 47px 125px 31px 223px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    background-image: url(../img/block7_translation_software/The_most-loved_translation_management_software.png);
+    background-size: 176px 154px;
+    background-repeat: no-repeat;
+    background-position: 0 12px;
+}
+.translation-rating {
+    width: 481px;
+    height: 168px;
+    border-left: 1px solid #000;
+   
 }
 
+.translation-rating-card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0 71px;
+}
+.translation-rating-logo {
+    background-image: url(../img/block7_translation_software/five_stars.png);
+    background-repeat: no-repeat;
+    background-size: 128px 20px;
+    background-position: 0 55px;
+    padding-bottom: 50px;
+}
+.translation-rating-title {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+}
+/*------------------------------ block 8  -------------------------------------------------*/
 
 
 
