@@ -131,6 +131,7 @@ a {
 .background-coral-style {
     background-color: #FF9C7D;
 }
+/*----------------------- block 2 ------------------*/
 .companies {
     padding: 108px 75px 104px 75px;
 }
@@ -150,4 +151,112 @@ a {
 .company-icon {
     max-width: 150px;
     max-height: 150px;
+}
+/*-------------------------------- block 3 -------------------------*/
+.advantages {
+    padding: 90px 75px 150px 75px;
+}
+.advantages-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 632px;
+    width: 1290px; /*впринципі ширина цього контейнера обмежена шириною родітєля, на всякий случай нехай буде*/
+    justify-content: center;
+    margin-bottom:  250px;
+    align-content: space-between;
+}
+.advantages-card:nth-child(2n) {
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+}
+.advantages-title {
+    max-width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.advantages-text {
+    max-width: 500px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.advantages-link {
+    display: block;
+    max-width: 100px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000;
+}
+.advantages-img {
+    max-width: 632px;
+    max-height: 632px;
+    /*flex: 0 0 632px*/ /*в даній ситуації можна було використати такий запис?*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 632px;
+    width: 1290px;
+    background-color: #000;
+
+}
+.green {
+    background-color: green;
+    height: 120px;
+    width: 493px;
+}
+.red {
+    background-color: red;
+    height: 120px;
+    width: 491px;
+}
+.blue {
+    background-color: blue;
+    width: 96px;
+    height: 30px;
+}
+.yellow {
+    background-color: yellow;
+    width: 632px;
+    height: 632px;
+    order: -1;
 }
