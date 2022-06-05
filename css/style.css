@@ -250,9 +250,57 @@ a {
     color: #000;
     text-decoration: underline;
 }
-
-
-
+/*------------------------- block 5 boost ---------------------------------*/
+.boost {
+    padding: 154px 78px 137px 75px;
+}
+.boost-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.boost-card-flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+.boost-card {
+    margin-right: 31px;
+    margin-bottom: 50px;
+}
+.boost-card:nth-child(3n) {
+    margin-right: 0;
+}
+.boost-card-flex-img {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boost-card-img {
+    display: block;
+}
+.boost-card-title {
+    margin-bottom: 34px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+.boost-card-text {
+    width: 410px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.boost-card-link {
+    display: block;
+    color: #000;
+    text-decoration: underline;
+    line-height: 30px;
+}
 
 
 
