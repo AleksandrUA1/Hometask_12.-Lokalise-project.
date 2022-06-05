@@ -386,7 +386,7 @@ a {
     line-height: 25px;
     letter-spacing: 0.75px;
 }
-/*------------------------------ block 8  -------------------------------------------------*/
+/*------------------------------ block 8 supporting -------------------------------------------------*/
 .supporting {
     display: flex;
     flex-direction: column;
@@ -427,7 +427,7 @@ a {
     border: 1px solid #ff6336;
     background-color: #fff;
 }
-/*---------------------------- block 9  ------------------------*/
+/*---------------------------- block 9 made ------------------------*/
 .made {
     display: flex;
     flex-direction: column;
@@ -463,13 +463,111 @@ a {
     border: 1px solid #000000;
     background-color: #FF9C7D;
 }
+/*------------------ block 10 footer -----------------------------------------*/
+.footer-background {
+    background-color: #eeeeee; 
+}
+.footer-block {
+    padding: 92px 0px 95px;
+    width: 1290px; /*для того щоб зробити нижній бордер*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+/*----------------------------------*/
+.footer-left-column {
+    width: 300px;
+}
+.footer-left-column-title {
+    margin-bottom: 28px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.footer-left-column-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.footer-left-column-text {
+    background-image: url(../img/footer/specialized_logotip.png);
+    background-repeat: no-repeat;
+    background-size: 80px 32px;
+    background-position: 0 25px;
+    padding-top: 74px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.footer-left-column-link {
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+}
+.footer-left-column-link:hover {
+    color: #ff6336;
+}
+/*---------------------------*/
+.footer-right-column {
 
-
-
-
-
-
-
+}
+.footer-right-column-nav {
+    display: flex;
+}
+.footer-right-column-sub-item {
+    display: block;
+    width: 187px;
+    margin-bottom: 21px;
+    font-weight: 600;
+}
+.footer-right-column-sub-link {
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+.footer-right-column-item {
+    margin-right: 34px;
+}
+.footer-right-column-item:last-child {
+    margin-right: 0px;
+}
+.footer-right-column-link {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+}
+.footer-right-column-link:hover {
+    color: #ff6336;
+}
+.footer-right-column-sub-link:last-child {
+    margin-bottom: 0;
+}
+.footer-right-column-sub-link:first-child {
+    margin-top: 21px;
+}
+/*------------------------------*/
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 75px 43px 75px;
+}
+.footer-copyright-left-column {
+    padding-left: 104px;
+    background-image: url(../img/footer/promo_Lokalise.png);
+    background-repeat: no-repeat;
+    background-size: 90px 21px;
+    background-position: 0 0;
+    width: 411px;
+}
+.footer-copyright-text-style {
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer-copyright-right-column {
+    padding-right: 76px;
+}
 
 
 
