@@ -192,6 +192,9 @@ a {
     line-height: 30px;
     color: #000;
 }
+.advantages-link:hover {
+    color: #ff6336;
+}
 .advantages-img {
     max-width: 632px;
     max-height: 632px;
@@ -250,6 +253,10 @@ a {
     color: #000;
     text-decoration: underline;
 }
+.pairing-card-text-link:hover {
+    text-decoration: none;
+    color: #ff6336;
+}
 /*------------------------- block 5 boost ---------------------------------*/
 .boost {
     padding: 154px 78px 137px 75px;
@@ -300,6 +307,10 @@ a {
     color: #000;
     text-decoration: underline;
     line-height: 30px;
+}
+.boost-card-link:hover {
+    color:#ff6336;
+    text-decoration: none;
 }
 /*---------------------------- block 6 chief ---------------------------------*/
 .background-aqua-style {
@@ -376,8 +387,82 @@ a {
     letter-spacing: 0.75px;
 }
 /*------------------------------ block 8  -------------------------------------------------*/
-
-
+.supporting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 165px 0 162px;
+}
+.supporting-title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    max-width: 791px;
+}
+.supporting-text {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    max-width: 539px;
+}
+.supporting-img {
+    max-width: 1023px;
+    max-height: 445px;
+    margin-bottom: 32px;
+}
+.supporting-link {
+    min-width: 160px;
+    height: 60px;
+    background-color: #ff6336;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+}
+.supporting-link:hover {
+    color: #000000;
+    border: 1px solid #ff6336;
+    background-color: #fff;
+}
+/*---------------------------- block 9  ------------------------*/
+.made {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 119px 0 161px;
+}
+.made-title {
+    width: 784px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.made-text {
+    width: 438px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.made-link {
+    height: 60px;
+    min-width: 140px;
+    padding: 0 20px;
+    background-color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+.made-link:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #FF9C7D;
+}
 
 
 
