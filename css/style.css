@@ -35,7 +35,9 @@ a {
 .header-logo {
     width: 130px;
     height: 28px;
-    margin-right: 51px;
+}
+.header-link-hover path:hover {
+    fill: #ff6336;
 }
 .haeder-nav {
     flex-grow: 1;   
@@ -45,6 +47,9 @@ a {
 }
 .header-nav-item {
     margin-right: 51px; /*в макеті відступи між пунктами спику різні. Нехай будуть одинаковими*/
+}
+.header-nav-item:first-child {
+    margin-left: 51px;
 }
 .header-nav-link {
     color: #000;
