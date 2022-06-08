@@ -5,10 +5,6 @@ body {
     font-family: 'Graphik LCG', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    height: 100%;
-}
-html {
-    height: 100%;
 }
 a {
     text-decoration: none;
@@ -36,7 +32,7 @@ a {
     width: 130px;
     height: 28px;
 }
-.header-link-hover path:hover {
+.header-logo-hover path:hover {
     fill: #ff6336;
 }
 .haeder-nav {
@@ -62,16 +58,15 @@ a {
 .header-authorization {
     display: flex;
 }
-.header-link {
+.button-of-site {
     width: 120px;
-    height: 45px;
     margin-right: 10px;
     text-align: center;
     line-height: 45px;
     font-size: 16px;
     font-weight: 600;
 }
-.header-link:last-child {
+.button-of-site:last-child {
     margin-right: 0;
 }
 .login {
@@ -117,17 +112,9 @@ a {
     display: flex;
     margin-bottom: 25px;
 }
-.about-content-authorization-link {
+.about-button {
     width: 160px;
-    height: 60px;
-    margin-right: 10px;
-    text-align: center;
     line-height: 60px;
-    font-size: 16px;
-    font-weight: 600;
-}
-.about-content-authorization-link:last-child {
-    margin-right: 0;
 }
 .demo {
     color: #000;
@@ -175,17 +162,18 @@ a {
 }
 .advantages-card {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 632px;
+    justify-content: space-between;
     width: 1290px; /*впринципі ширина цього контейнера обмежена шириною родітєля, на всякий случай нехай буде*/
-    justify-content: center;
     margin-bottom:  250px;
-    align-content: space-between;
+}
+.advantages-card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 632px;
 }
 .advantages-card:nth-child(2n) {
-    flex-wrap: wrap-reverse;
-    align-items: flex-end;
+    flex-direction: row-reverse;
 }
 .advantages-card:last-child {
     margin-bottom: 0;
@@ -203,7 +191,6 @@ a {
     margin-bottom: 30px;
 }
 .advantages-link {
-    display: block;
     max-width: 100px;
     font-weight: 600;
     line-height: 30px;
@@ -213,9 +200,8 @@ a {
     color: #ff6336;
 }
 .advantages-img {
-    max-width: 632px;
-    max-height: 632px;
-    /*flex: 0 0 632px*/ /*в даній ситуації можна було використати такий запис?*/
+    width: 632px;
+    height: 632px;
 }
 /*---------------------- block 4 pairing --------------------------*/
 .pairing {
@@ -232,7 +218,6 @@ a {
 .pairing-cards-box {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     align-content: space-between;
     flex-wrap: wrap;
 }
@@ -320,7 +305,6 @@ a {
     margin-bottom: 25px;
 }
 .boost-card-link {
-    display: block;
     color: #000;
     text-decoration: underline;
     line-height: 30px;
@@ -567,10 +551,7 @@ a {
     display: flex;
 }
 .footer-right-column-sub-item {
-    display: block;
-    width: 187px;
-    margin-bottom: 21px;
-    font-weight: 600;
+
 }
 .footer-right-column-sub-link {
     margin-bottom: 15px;
@@ -578,6 +559,9 @@ a {
 }
 .footer-right-column-item {
     margin-right: 34px;
+    display: block;
+    width: 187px;
+    font-weight: 600;
 }
 .footer-right-column-item:last-child {
     margin-right: 0px;
@@ -616,54 +600,4 @@ a {
 }
 .footer-copyright-right-column {
     padding-right: 76px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.first {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 632px;
-    width: 1290px;
-    background-color: #000;
-
-}
-.green {
-    background-color: green;
-    height: 120px;
-    width: 493px;
-}
-.red {
-    background-color: red;
-    height: 120px;
-    width: 491px;
-}
-.blue {
-    background-color: blue;
-    width: 96px;
-    height: 30px;
-}
-.yellow {
-    background-color: yellow;
-    width: 632px;
-    height: 632px;
-    order: -1;
 }
